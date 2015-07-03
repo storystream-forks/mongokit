@@ -40,7 +40,7 @@ from mongokit.versioned_document import VersionedDocument
 from mongokit.database import Database
 from mongokit.collection import Collection
 from mongokit.connection import Connection, MongoClient, MongoReplicaSetClient, ReplicaSetConnection
-from mongokit.master_slave_connection import MasterSlaveConnection
+#from mongokit.master_slave_connection import MasterSlaveConnection
 from pymongo import (
     ASCENDING as INDEX_ASCENDING,
     DESCENDING as INDEX_DESCENDING,

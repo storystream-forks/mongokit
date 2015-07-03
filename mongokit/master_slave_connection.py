@@ -4,7 +4,12 @@ Andreas Jung, info@zopyx.com
 (same license as Mongokit)
 """
 
-from pymongo.master_slave_connection import MasterSlaveConnection as PymongoMasterSlaveConnection
+#from pymongo.master_slave_connection import MasterSlaveConnection as PymongoMasterSlaveConnection
+
+
+class PymongoMasterSlaveConnection(object):
+    pass
+
 try:
     from pymongo import MongoClient as PymongoConnection
 except ImportError:
